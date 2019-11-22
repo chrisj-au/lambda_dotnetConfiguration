@@ -15,6 +15,11 @@
 				"Timeout": 30,
 				"Role": null,
 				"Policies": [ "AWSLambdaBasicExecutionRole" ],
+				"Environment" : {
+					"Variables": {
+						"LAMBDA_NET_SERIALIZER_DEBUG" : "true"
+					}
+				},
 				"Events": {
 					"RootGet": {
 						"Type": "Api",

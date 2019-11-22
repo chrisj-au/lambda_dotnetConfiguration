@@ -7,4 +7,8 @@ namespace lambda_dotnetConfiguration {
     public class SomeClass {
         public string[] arrValues { get; set; }
     }
+
+    public class AppKeys {
+        public string MyAppPass { get; set; }
+    }
 }
